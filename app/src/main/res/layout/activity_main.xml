@@ -9,11 +9,24 @@
 
     <examples.aaronhoskins.com.customviewandviewgroups.Circle
         android:id="@+id/circle"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         app:fillColor="@color/colorPrimaryDark"
+        android:background="@drawable/color_gradiant"
         app:radius="700"
         app:positionX = "500"
         app:positionY = "500"/>
+
+    <examples.aaronhoskins.com.customviewandviewgroups.CompoundView
+        android:id="@+id/cmpCompoundView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnStartSomeActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start some activity"
+        android:onClick="onClick"/>
 
 </LinearLayout>

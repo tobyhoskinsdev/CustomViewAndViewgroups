@@ -2,7 +2,7 @@
 <resources>
     <declare-styleable name="Circle">
         <attr name="radius" format="integer"/>
-        <attr name="fillColor" format="color"/>
+        <attr name="fillColor" format="integer"/>
         <attr name="positionX" format="integer"/>
         <attr name="positionY" format="integer"/>
     </declare-styleable>
